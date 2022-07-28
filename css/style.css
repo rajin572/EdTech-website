@@ -1,3 +1,5 @@
+/* header section start from here */
+
 .header-section{
     margin-top: 90px;
 }
@@ -9,6 +11,9 @@
 .my-carousel-img{
     filter: brightness(50%);
 }
+
+/* i use those media to responsive the carousel otherwise in small mobile device bootstrap can't resposive it */
+
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .carousel-item img {
         height: 600px;
@@ -28,8 +33,18 @@
     }
 }
 
+/* header section End here */
 
+
+
+
+
+/* institute section start hare */
+
+/* i use it to change its background */
 
 .institute-section{
     background-color: rgba(244, 250, 253, 1);
 }
+
+/* institute section end hare */
