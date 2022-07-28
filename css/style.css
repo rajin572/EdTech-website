@@ -1,0 +1,29 @@
+.header-section{
+    margin-top: 90px;
+}
+.carousel-item img {
+    height: 700px;
+    object-fit: fill;
+    object-position: center;
+}
+.my-carousel-img{
+    filter: brightness(50%);
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .carousel-item img {
+        height: 600px;
+    }
+}
+@media screen and (min-width: 000px) and (max-width: 576px) {
+    .carousel-item img {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 000px) and (max-width: 380px) {
+    .carousel-caption h1 {
+        font-size: 18px;
+    }
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
