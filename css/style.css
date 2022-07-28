@@ -14,14 +14,9 @@
 
 /* i use those media to responsive the carousel otherwise in small mobile device bootstrap can't resposive it */
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 000px) and (max-width: 768px) {
     .carousel-item img {
         height: 600px;
-    }
-}
-@media screen and (min-width: 000px) and (max-width: 576px) {
-    .carousel-item img {
-        height: 500px;
     }
 }
 @media screen and (min-width: 000px) and (max-width: 380px) {
